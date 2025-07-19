@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StalGalaxy - Oferty z Kosmosu</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: radial-gradient(ellipse at center, #0b0c1b 0%, #000000 100%);
+      color: white;
+      background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+    }
+    header {
+      text-align: center;
+      padding: 2rem;
+      background-color: rgba(0,0,0,0.3);
+    }
+    h1 {
+      font-size: 3rem;
+      text-shadow: 0 0 10px #00f0ff;
+    }
+    .oferty {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+      padding: 2rem;
+    }
+    .oferta {
+      background-color: rgba(255, 255, 255, 0.05);
+      border: 1px solid #00f0ff;
+      border-radius: 15px;
+      padding: 2rem;
+      width: 250px;
+      text-align: center;
+      box-shadow: 0 0 15px #00f0ff44;
+      transition: transform 0.2s ease;
+    }
+    .oferta:hover {
+      transform: scale(1.05);
+    }
+    .btn {
+      margin-top: 1rem;
+      display: inline-block;
+      background: #00f0ff;
+      color: #000;
+      padding: 0.75rem 1.5rem;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background: #00c6d3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🌌 StalGalaxy 🌌</h1>
+    <p>Oferty z innego wymiaru</p>
+  </header>
+
+  <section class="oferty">
+    <div class="oferta">
+      <h2>🚀 Pakiet Startowy</h2>
+      <p>Dla początkujących podróżników międzygwiezdnych.</p>
+      <a class="btn" href="https://tippy.pl/u/twojanazwa1" target="_blank">Zapłać</a>
+    </div>
+    <div class="oferta">
+      <h2>🛠️ Naprawa Statku</h2>
+      <p>Usługa premium dla uszkodzonych wahadłowców.</p>
+      <a class="btn" href="https://tippy.pl/u/twojanazwa2" target="_blank">Zapłać</a>
+    </div>
+    <div class="oferta">
+      <h2>🌠 Przelot Hyperprzestrzenny</h2>
+      <p>Najszybsza podróż między galaktykami.</p>
+      <a class="btn" href="https://tippy.pl/u/twojanazwa3" target="_blank">Zapłać</a>
+    </div>
+  </section>
+</body>
+</html>
